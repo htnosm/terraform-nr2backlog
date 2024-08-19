@@ -11,10 +11,10 @@ New Relic の Alert(Issue) を Backlog に送信するためのリソース群�
 ## Usage
 
 - 1) New Relic 上で Workflow を作成、 Notification Channel に EventBridge を設定
-    - 参考: ./example/newrelic
+    - 参考: [example/newrelic](./example/newrelic/main.tf)
 - 2) AWSマネジメントコンソール上で、追加されたパートナーイベントソースを Associate
 - 3) AWS 上で Event rule を作成 (本モジュール)
-    - 参考: ./example/aws
+    - 参考: [example/aws](./example/aws/main.tf)
     - Backlog の APIキーが必要 (管理者権限は不要)
 
 ## Requirements
